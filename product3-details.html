@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuturemite</title>
+        <link rel="icon" type="image/x-icon" href="images/logowithbg.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="header">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" width="200px">
+              </a>   
+
+            </div>
+              <nav>
+                <ul id="MenuItems">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="products.html">PRODUCTS</a></li>
+                  <li><a href="login.html">LOGIN/SIGN UP</a></li>
+                </ul>
+              </nav>
+              <img src="images/cart.png" width="40px" height="40px">
+              <img src="images/menu.png" width="25px" height="23px" class="menu-icon" onclick="menutoggle()">
+          </div>
+          
+        </div>
+      </div>
+
+
+
+      <!-------product1-details------->
+
+
+      <div class="small-container  single-product">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/product3.jpg" width="100%" id="ProductImg">
+                
+            
+            </div>
+            <div class="col-3">
+                <h2>Orange fruit powder by Nuturemite.<h2>
+                <h4>Product hilights: </h4>
+                <ul>
+                    <li>Helps bring radiance to the skin</li>
+                    <li>Unclogs pores</li>
+                    <li>Supports immunity</li>
+                    <li>Helps form collagen</li>
+                </ul>
+            </div>  
+            <div class="col-3">
+                
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free shipping</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs. 399<small class="text-body-secondary fw-light"></small></h1>
+                        <p>Select quantity</p>
+                        
+                        <input type="number" value="1" >
+                        <br>
+                        <button type="button" class="w-100 btn btn-md btn-primary ">Buy now  &#8594;</button>
+                      </div>
+                    </div>
+                  </div>
+        
+            
+        </div>
+    </div>
+     </body>
+     </html>
+
+
+     
+  <!-------------footer----------->
+  
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h6>CUSTOMER SERVICE</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Order tracking</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shipping and Delivery</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help & FAQs</a></li>
+    
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h6>ABOUT US</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our stores</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sales</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+           
+          </ul>
+        </div>
+  
+        
+        <div class="col-6 col-md-2 mb-3">
+          <img src="images/logo.png" height="120px">
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© Copyright 2023. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+       <!--------js for toggle me----->
+
+    <script>
+      var MenuItems=document.getElementById("MenuItems");
+      MenuItems.style.maxHeight="0px";
+      function menutoggle(){
+          if(MenuItems.style.maxHeight=="0px")
+            {
+              MenuItems.style.maxHeight="200px"
+              
+            }
+          else
+            {
+              MenuItems.style.maxHeight="0px"
+            }
+ 
+      }
+  </script>
+  
+    
+    
+      </body>            
+   
+</html>
